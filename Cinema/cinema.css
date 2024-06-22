@@ -18,13 +18,11 @@ body, button, textarea, input {
 
 header nav {
     display: flex;
-    /* background: #ececec; */
-    
+
 }
 
 header nav > ul{
     display: flex;
-    /* justify-content:space-around; */
     gap: 0.1em;
 
 }
@@ -99,6 +97,10 @@ header .imdb {
     padding-top: 0.7em;
     border-top: 1px solid white;
 }
+.info2 .title{
+  border: none;
+  color: #fff;
+}
 
 .info4 p{
     border: none;
@@ -107,7 +109,7 @@ header .imdb {
 .info2 h3,
 .info4 h3 {
     padding-bottom: 0.7em;
-    
+
 }
 
 .info4 h3{
@@ -115,34 +117,48 @@ header .imdb {
 }
 
 .info2 .info2-c1 h3::before{
-    display: block;
+    display: inline-block;
     font-family: 'Font Awesome 6 Free';
-    font-size: 4em;
+    font-size: 2.5em;
     content: '\f008';
-    
+    background: #56DBB1;
+    padding: 0 0.25em;
+
+
+
 }
 
 .info2 .info2-c2 h3::before{
-    display: block;
+    display: inline-block;
     font-family: 'Font Awesome 6 Free';
-    font-size: 4em;
+    font-size: 2.5em;
     content: '\f03d';
+    background: #56DBB1;
+    padding: 0 0.25em;
+
+
 }
 
 
 .info2 .info2-c3 h3::before{
-    display: block;
+    display: inline-block;
     font-family: 'Font Awesome 6 Free';
-    font-size: 4em;;
+    font-size: 2.5em;
     content: '\f54e';
+    background: #56DBB1;
+    padding: 0 0.25em;
+
 }
 
 .info2 .info2-c4 h3::before{
-    display: block;
+    display: inline-block;
     font-family: 'Font Awesome 6 Free';
-    font-size: 4em;
+    font-size: 2.5em;
     content: '\f095';
-    
+    background: #56DBB1;
+    padding: 0 0.25em;
+    aspect-ratio: 1/1;
+
 }
 
 .info3 {
